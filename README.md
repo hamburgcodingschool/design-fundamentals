@@ -1,34 +1,40 @@
 # Design Fundamentals – Cheat Sheet
-Additional material on the course Design Fundamentals at Hamburg Coding School.
+
 
 ## What is design?
-Design is communication. Like we cannot not communicate, we cannot not design. Design is closely connected to creation. We as humans are inherently creative. We strive to create solutions to overcome limitations or obstacles and ease our lives. To learn, develop and grow. As soon as we create, we think about how something works. That is design. Design is how it works. Design always solves a problem. Design always serves a purpose. Design is consciously taking decisions to shape how something works and looks in order to support its purpose.
+*Design is communication.* As we cannot not communicate, we cannot not design. Design is closely connected to creation. Also we as humans are inherently creative. We strive to create solutions to overcome limitations or obstacles and ease our lives. To learn, develop and grow. As soon as we create, we think about how something works. That is design. Design is how it works. Design always solves a problem. Design always serves a purpose. **Design is consciously taking decisions to define how something works (and in turn looks) in order to support its purpose.**
+
+Design is the process of selecting and adjusting design parameters that make a difference in the given context (sender/identity/message/channel/identity/receiver/interaction), so users can digest (learn) the content (storyline) with focus and get value out of using it (your website or app).
+
 
 ## Why design?
-As we cannot not do it, let's do it intentionally, in order to support our purpose. Good design is intentional.
+As we cannot not do it, let's do it intentionally in order to support our purpose. **Good design is intentional.**
 
-## Principles
-* Constraints are your friend. 
-  * * They help you take (design) decisions. The context adds meaning and intent and sets constraints. Use them to communicate your message effectively to an audience it is relevant to and make them act on it. Design always aims to create impact and alter peoples behavior.
-
-Quotes 
-Keep it simple stupid.
-Less is more.
-Reduce to the max. 
-Good design is not when there’s nothing left to add, but when there’s nothing left to take away. 
-Content is King, design is queen.
-
-Constraints are your friend.
-
-Process:
+## Define your purpose
 Define who (person/brand = provider of service/product) is saying what (message/call-to-action) to whom (users/customers). Set a goal for what you want to achieve upfront, your design goals derive from that motly. Information creates context, context gives you constraints, constraints help to decide how to approach your target group.
 
-Tricks:
+## What can design do?
+### The basic layer of design is usability. Making your message accesible, readable and usable for the audience you want to reach.
+### The second layer is styling or branding. It is used to add emotion and context which appeal to a certain audience.
 
-Eye-squeeze-test (for judging on which elements take what amount of attention (weight), apart from their content (just visual appearance).
 
+## Principles
 
-Basic principles:
+### Always start with why. 
+* Why are you doing this design?
+* Who is sending the message?
+* Who is it for? 
+* What should it achieve?
+* When is it good (=successful)?
+* What is the overall context?
+* What's the channel/medium?
+
+### Constraints are your friend. 
+Constraints define the boundaries of how you can design something to work effectively. Contraints help you take (design) decisions and thereby direct you an. The context adds meaning and intent and sets constraints. Use them to communicate your message effectively to an audience it is relevant to and make them act on it. Design always aims to create impact and alter peoples behavior.
+
+### Contrast
+Use big steps, that really make a difference to the reader, instead of light and subtle differences that might not get notice. Contrast is what makes the difference clear.
+
 
 Always try to respect (social) context and (channels) conventions. Learned stuff that users already now from their reality/life. 
 - For example clicking on the logo usually leads back to the homepage. Or links are underlined and colored. Things that are interactive, show that and also react on hover.
@@ -36,7 +42,7 @@ Always try to respect (social) context and (channels) conventions. Learned stuff
 
 Constraints are your friend. The give orientation and direction (towards a certain group of people.)
 
-Context: By gathering information about your purpose you build context. Context gives you 
+Context: By gathering information about your purpose and everything related you build context. Context gives you constraints.
 
 Presenting new stuff means learning or users.
 Their cognitive load is very high.
@@ -53,49 +59,50 @@ That way it would not feel like one short and simple story I can follow. Not lik
 You could compare this with an optional stroll through nature or the woods. As compared to everything on one screen would feel like a marketplace where all the impression rain on you at the same time, trying to get your attention at the same time. Everybody screams for you louder than the others to get your attention and sell you their product or benefit. This is confusing and a lot to process and does not allow for focus and clarity and comprehension and sequential learning, but results in information overload. 
 
 
-Rules of thumb:
+## Tricks
 
-How to select colors and where?
+Eye-squeeze-test to determine your visual hierarchy, the reading order if you will. It allows you to see which elements take what amount of attention in your design and how they (mis-)guide the user by this, apart from their content (just visual appearance). This also works by overlayin a transparent blurred shape over a design. (Easily possible in design software like e.g. in Figma or Sketch.)
+
+## Rules of thumb
+
+### How to build a visual hierarchy
+
+### How to select colors?
 - Start with black (type) white (paper/canvas) 
 - For each new color, think about if you could do it + some shade of grey to have sogrey and an accent color and see if that already works for you.
 
-How to select fonts?
+### How to select fonts?
 Google fonts
 If you want to pari fonts, make sure the really differ from each other. Do not try to pair fonts that are similar. Better take a font that has a lot of weights and variants (a big family) son you can stay inside the family and variate as needed, but overall stay in the same family (character).
 
-How to style fonts?
-
+### How to style fonts?
 What is a good starting point for font-size, line-height and paragraph width.
 - For reading text, do not go below 16px font size.
 - Line-height can be set relative to 1.5em and will optimize
 - Do not use multiple styles for the same purpose, e.g emphasizing a word (only bold or italic).
-- 
-
-How to pair fonts?
 
 How to decide on headline sizes and where to start?
 Start with the smallest text size you defined (probably min. 16px as the largest amount of text will be set in this) and go up from there.
 
-Use big steps, that really make a difference to the reader, instead of light and subtle differences that might not get notice. Contrast is what makes the difference. 
-
+### Why define a headline hierarchy and a grid ?
 That is basically why we create grids and steppingstones in font sizes (also a kind of grid). To make sure the differences are big enough for user to clearly recognize. Also by creating the stepping we reduce the number of choices drastically and make sure we have the flexibility to chunk content and in doing so create repeating patterns that users can learn and rely on.
 
 
-What design is, is the process of selecting and adjusting the necessary design parameters in the given context (sender/message/channel/receiver/interaction), so users can digest (learn) the content (storyline) with focus and get value out o using your website or app.
-
-
-How to do a grid?
-12 columns
+### How to create a grid?
+Use 12 columns
+Use 960px max width for your base content grid
 
 Max-Width/Min-Width for the whole grid.
 1200px for both?
 
 
+
+### How to make any page look better?
 html {   max-width:70ch;   padding:2ch;   margin:auto;   color:#333;   font-size:1.2em; }
 
 
 
-Good links for further reading:
+## Further learning on design
 
 Learning UI - newsletter & Teardowns
 https://learnui.design/
@@ -108,7 +115,6 @@ Https://uibreakfast.com
 
 Better Web Typography
 
-
 Boilerplates: Simplest CSS, 
 
 https://andybrewer.github.io/mvp/
@@ -119,7 +125,16 @@ Laws (of perception? of UI/UX Design?):
 Hicks law
 Fitts law
 Ockhams razor
-Law of Proximity 
+Law of proximity 
+Law of continuity
+
 
 Good article on the topic: https://uxplanet.org/better-design-with-ux-rules-and-psychological-research-you-need-to-know-df4c9d8dd2b5
 
+
+## Quotes 
+Good design is not when there’s nothing left to add, but when there’s nothing left to take away. 
+Content is King, design is queen.
+Keep it simple stupid.
+Less is more.
+Reduce to the max. 
