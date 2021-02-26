@@ -32,6 +32,10 @@ Define who (person/brand = provider of service/product) is saying what (message/
 ### Constraints are your friend. 
 Constraints define the boundaries of how you can design something to work effectively. Contraints help you take (design) decisions and thereby direct you an. The context adds meaning and intent and sets constraints. Use them to communicate your message effectively to an audience it is relevant to and make them act on it. Design always aims to create impact and alter peoples behavior.
 
+### Whitespace creates focus. Do not fill the page to fill the page.
+
+### Cluster your content and align it along a "storyline" and distribute it on your format accordingly, to present it to your audience in order and in several steps. Uusally communication that puts a lot of information at once on you, is percieved as overwhelming. But mostly you do not want to overwhelm people.
+
 ### Contrast
 Use big steps, that really make a difference to the reader, instead of light and subtle differences that might not get notice. Contrast is what makes the difference clear.
 
@@ -59,6 +63,11 @@ That way it would not feel like one short and simple story I can follow. Not lik
 You could compare this with an optional stroll through nature or the woods. As compared to everything on one screen would feel like a marketplace where all the impression rain on you at the same time, trying to get your attention at the same time. Everybody screams for you louder than the others to get your attention and sell you their product or benefit. This is confusing and a lot to process and does not allow for focus and clarity and comprehension and sequential learning, but results in information overload. 
 
 
+## How to prfoessionally work with designers as a developer
+
+...
+
+
 ## Tricks
 
 Eye-squeeze-test to determine your visual hierarchy, the reading order if you will. It allows you to see which elements take what amount of attention in your design and how they (mis-)guide the user by this, apart from their content (just visual appearance). This also works by overlayin a transparent blurred shape over a design. (Easily possible in design software like e.g. in Figma or Sketch.)
@@ -84,22 +93,31 @@ What is a good starting point for font-size, line-height and paragraph width.
 How to decide on headline sizes and where to start?
 Start with the smallest text size you defined (probably min. 16px as the largest amount of text will be set in this) and go up from there.
 
+### How to create a grid?
+Use 12 columns for flexibility.
+Then you can define layout areas that are full width, half width, 1/3 and 1/4 width for example, to have different layout modules to combine to distribute the contenton your format.
+Going with squares here is a good practice. This means initially defining your layout areas to be as high as they are wide, so theyre always square, is good practice. (You can of course extend their height in grid steps whenever it supports your purpose better.)
+960px width for your base content grid guarantees good redability from standard screen distance on desktops.
+A gutter of 20px mostly works well.
+
+### More
+
+Each page should have some empty space on the very bottom to signal: This is the end of reading here.
+
+
 ### Why define a headline hierarchy and a grid ?
 That is basically why we create grids and steppingstones in font sizes (also a kind of grid). To make sure the differences are big enough for user to clearly recognize. Also by creating the stepping we reduce the number of choices drastically and make sure we have the flexibility to chunk content and in doing so create repeating patterns that users can learn and rely on.
-
-
-### How to create a grid?
-Use 12 columns
-Use 960px max width for your base content grid
-
-Max-Width/Min-Width for the whole grid.
-1200px for both?
-
 
 
 ### How to make any page look better?
 html {   max-width:70ch;   padding:2ch;   margin:auto;   color:#333;   font-size:1.2em; }
 
+
+## Tools
+Grid generator https://grid.layoutit.com/
+Font pair selector
+Color picker
+Gradient generator
 
 
 ## Further learning on design
@@ -114,22 +132,20 @@ UI Audits
 Https://uibreakfast.com
 
 Better Web Typography
+https://betterwebtype.com/
 
-Boilerplates: Simplest CSS, 
-
-https://andybrewer.github.io/mvp/
-
-
-Laws (of perception? of UI/UX Design?):
-
-Hicks law
-Fitts law
-Ockhams razor
-Law of proximity 
-Law of continuity
+Boilerplates?
+MVP.css https://andybrewer.github.io/mvp/
+Tailwind
 
 
-Good article on the topic: https://uxplanet.org/better-design-with-ux-rules-and-psychological-research-you-need-to-know-df4c9d8dd2b5
+## Laws (of perception)
+
+* Hicks law
+* Fitts law
+* Ockhams razor
+* Law of proximity 
+* Law of continuity
 
 
 ## Quotes 
