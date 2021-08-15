@@ -4,7 +4,7 @@
 ## What is design?
 Design is communication. As we cannot not communicate, we cannot not design. Design is closely connected to creation. Also we as humans are inherently creative. We strive to create solutions to overcome limitations or obstacles and ease our lives. To learn, develop and grow. As soon as we create, we think about how something works. That is design. Design is how it works. Design always solves a problem. Design always serves a purpose. **Design is consciously taking decisions to define how something works (and in turn looks) in order to support its purpose.**
 
-Design is the process of selecting and adjusting design parameters that make a difference in the given context (sender/identity/message/channel/identity/receiver/interaction), so users can digest (learn) the content (storyline) with focus and get value out of using it (your website or app).
+Design is the process of selecting and adjusting design parameters that make a difference in the given context (sender/identity/message/channel/receiver/interaction), so users can digest (learn) the content (storyline) with focus and get value out of using it (your website or app).
 
 
 ## Why design?
